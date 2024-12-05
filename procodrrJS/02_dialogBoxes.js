@@ -7,5 +7,3 @@
 03. Prompt("your message goes here")
 */
 
-const isConfirm = confirm("Are you student?");
-console.log(isConfirm)
