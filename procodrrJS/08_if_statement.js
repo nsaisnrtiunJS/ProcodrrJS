@@ -3,17 +3,19 @@
 /*   Why do we use If Statement in JavaScript?-----In JavaScript, IF Statements are used to control the flow of a program by exicuting different blocks of code based on a Condition.         */
 
 
-const userName = prompt('Enter your Name:') || 'Sam';
-const userAge =parseInt( prompt('Enter your Age:')) || 22;
-let gender = prompt(`Are you a Male or Female?`)
+const userName = "Samiul Islam"
+const userAge = -2
+// const userName = prompt('Enter your Name:') || 'Sam';
+// const userAge =parseInt( prompt('Enter your Age:')) || 22;
+// let gender = prompt(`Are you a Male or Female?`)
 
 
 console.log(`Name: ${userName}`)
 console.log(`Age: ${userAge}`)
 
-if(gender === 'He' || gender === 'She'){
-    console.log("sex: " + gender);
-  }
+// if(gender === 'He' || gender === 'She'){
+//     console.log("sex: " + gender);
+//   }
   
 
 const isSchoolStudent = (userAge >=5) && (userAge <= 18)
@@ -24,7 +26,8 @@ const isWorkingProfessional = (userAge >24) && (userAge <= 55)
 
 if(userAge >= 0 && userAge <= 5){
     console.log(`${userName} is a child.`)
-    console.log(`${gender} is always playing,crying & drinking. `)
+    console.log(`He/She is always playing,crying & drinking. `)
+    // console.log(`${gender} is always playing,crying & drinking. `)
 }
 if(userAge > 5 && userAge <= 18){
     console.log(`${userName} is a school student.`)
